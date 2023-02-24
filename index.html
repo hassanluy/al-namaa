@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind cdn  -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <!-- swiper js css link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- fontawsome cdn css style  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="new-imgs/logo_namaa-1 - Copy.jpg">
+    <title>AL NAMAA COMPANY</title>
+  </head>
+  <body class="uppercase">
+    <!-- navbar section start  -->
+
+    <!-- This is an example component -->
+    <div class="mt-8 mx-8 lg:mx-24">
+      <nav class="border-gray-200">
+        <div
+          class="container mx-auto flex flex-wrap items-center justify-between"
+        >
+          <a href="#" class="">
+            <img
+              src="new-imgs/شعار_شركة_النعماء-1-removebg-preview.png"
+              class="w-12"
+              alt=""
+            />
+          </a>
+          <button
+            data-collapse-toggle="mobile-menu"
+            type="button"
+            class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
+            aria-controls="mobile-menu-2"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg
+              class="hidden w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
+            <ul
+              class="flex-col md:flex-row flex md:space-x-5 mt-4 md:mt-0 md:text-sm md:font-medium"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#abac"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                  >PRODUCTS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#about"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                  >ABOUT US</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#contact"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                  >CONTACT US</a
+                >
+              </li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- navbar section end -->
+
+    <div
+      class="lg:grid my-16 lg:gap-4 lg:grid-rows-2 lg:grid-cols-4 space-y-16 lg:space-y-0"
+    >
+      <div
+        style="
+          background-image: url(new-imgs/HERO-SECTION-transformed\ -\ Copy.webp);
+          background-position: center;
+          background-size: contain;
+          position: relative;
+        "
+        class="lg:row-span-2 lg:col-span-2 relative text-white flex flex-col justify-center items-center lg:h-auto lg:mb-0 h-96 mb-16"
+      >
+        <div
+          style="
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            right: 0;
+          "
+        ></div>
+        <h1 class="text-4xl font-bold z-10 capitalize text-center">
+          we are al namaa company
+        </h1>
+        <p class="my-4 z-10 capitalize font-bold text-center">
+          awsome , powerful ,trusted tools only with us
+        </p>
+        <a class="px-4 py-2 border z-10 capitalize" href="tel:07515862918"
+          >call us</a
+        >
+      </div>
+      <div
+        style="
+          background-image: url(new-imgs/ABAC\ -\ Copy.PNG);
+          background-size: cover;
+          background-position: top;
+          position: relative;
+        "
+        class="relative text-white col-span-1 h-72 flex items-center justify-center flex-col"
+      >
+        <a href="index.html#abac">
+          <div
+            style="
+              height: 100%;
+              width: 100%;
+              background-color: black;
+              opacity: 0.3;
+              position: absolute;
+              top: 0;
+              right: 0;
+              cursor: pointer;
+            "
+          ></div>
+        </a>
+        <h1 class="text-center text-3xl font-bold z-10">
+          <a href="index.html#abac">ABAC</a>
+        </h1>
+        <p class="text-center text-gray-200 z-10 font-bold">
+          Air. Anytime. Anywhere
+        </p>
+      </div>
+      <div
+        style="
+          background-image: url(new-imgs/WEB3\ -\ Copy.PNG);
+          background-size: cover;
+          background-position: top;
+          position: relative;
+        "
+        class="relative text-white col-span-1 h-72 flex items-center justify-center flex-col"
+      >
+        <a href="index.html#hyundai">
+          <div
+            style="
+              height: 100%;
+              width: 100%;
+              background-color: black;
+              opacity: 0.3;
+              position: absolute;
+              top: 0;
+              right: 0;
+              cursor: pointer;
+            "
+          ></div>
+        </a>
+        <h1 class="text-center text-3xl font-bold uppercase z-10">
+          <a href="index.html#hyundai">hyundai welding</a>
+        </h1>
+        <p class="text-center text-gray-200 font-bold capitalize z-10">
+          Best welding with hyundai welding
+        </p>
+      </div>
+      <div
+        style="
+          background-image: url(new-imgs/INSIZE\ -\ Copy.PNG);
+          background-size: cover;
+          background-position: top;
+          position: relative;
+        "
+        class="relative text-white col-span-1 h-72 flex items-center justify-center flex-col"
+      >
+        <a href="index.html#insize">
+          <div
+            style="
+              height: 100%;
+              width: 100%;
+              background-color: black;
+              opacity: 0.3;
+              position: absolute;
+              top: 0;
+              right: 0;
+              cursor: pointer;
+            "
+          ></div>
+        </a>
+        <h1 class="text-center text-3xl font-bold uppercase z-10"><a href="index.html#insize">INSIZE</a></h1>
+        <p class="text-center text-gray-200 font-bold capitalize z-10">
+          best measuring instruments by insize
+        </p>
+      </div>
+      <div
+        style="
+          background-image: url(new-imgs/pexels-kateryna-babaieva-2760243\ -\ Copy.jpg);
+          background-size: cover;
+          background-position: center;
+          position: relative;
+        "
+        class="relative text-white col-span-1 h-72 flex items-center justify-center flex-col"
+      >
+        <a
+          style="
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+          "
+          href="index.html#partners"
+        ></a>
+        <h1 class="text-center text-3xl font-bold uppercase z-10"><a href="index.html#partners">Prtners</a></h1>
+        <p class="text-center text-gray-200 font-bold capitalize z-10">
+          many other powerful companies here
+        </p>
+      </div>
+    </div>
+
+    <!-- slider section  -->
+
+    <div class="mx-8 md:mx-32 my-16">
+      <div class="mb-8">
+        <h1 class="font-bold text-4xl" id="abac">ABAC Latest</h1>
+        <p class="text-gray-400 capitalize">
+          here you will find some amazing products of ABAC company
+        </p>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="new-imgs/abac1.jpg" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ABAC</h3>
+                <span>compersor Prodcut</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/abac4.jpg" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ABAC Prodcut</h3>
+                <span>compersor Prodcut</span>
+              </div>
+              <a
+                class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                href="tel:07515862918"
+                >call us</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/abac5.webp" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ABAC Prodcut</h3>
+                <span>compersor Prodcut</span>
+              </div>
+              <a
+                class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                href="tel:07515862918"
+                >call us</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/abac6.webp" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ABAC Prodcut</h3>
+                <span>compersor Prodcut</span>
+              </div>
+              <a
+                class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                href="tel:07515862918"
+                >call us</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/abac1.jpg" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ABAC</h3>
+                <span>compersor Prodcut</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/abac4.jpg" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ABAC Prodcut</h3>
+                <span>compersor Prodcut</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="mx-8 md:mx-32 my-16">
+      <div class="mb-8">
+        <h1 class="font-bold text-4xl" id="hyundai">Hyundai Welding Latest</h1>
+        <p class="text-gray-400 capitalize">
+          here you will find the best welding tools and machines from hyundai
+          welding
+        </p>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="new-imgs/hy1.jpg" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>Hi1500SA</h3>
+                <span>hyundai Prodcut</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/hy2.jpg" style="max-height: 420px" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>HERA1500</h3>
+                <span>hyundai product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/hy3.jpg" style="max-height: 420px" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>H600MS</h3>
+                <span>hyundai product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/hy4.jpg" style="max-height: 420px" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>ALPAH lll 500M</h3>
+                <span>Hyundai Prodcut</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/hy2.jpg" style="max-height: 420px" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>HERA1500</h3>
+                <span>hyundai product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/hy3.jpg" style="max-height: 420px" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>H600MS</h3>
+                <span>hyundai product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="mx-8 md:mx-32 my-16">
+      <div class="mb-8">
+        <h1 class="font-bold text-4xl" id="insize">INSIZE Latest</h1>
+        <p class="text-gray-400 capitalize">
+          if you want the best measuring tools you will find it with INSIZE here
+        </p>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="new-imgs/in6.webp" alt="" />
+            <div class="flex flex-wrap gap-4 justify-between items-center mb-8">
+              <div>
+                <h3>measureing product</h3>
+                <span>insize product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/in1.jpg" alt="" />
+            <div class="flex flex-wrap gap-4 justify-between items-center mb-8">
+              <div>
+                <h3>measureing product</h3>
+                <span>insize product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/in3.jpg" style="max-height: 330px" alt="" />
+            <div class="flex flex-wrap gap-4 justify-between items-center mb-8">
+              <div>
+                <h3>measureing product</h3>
+                <span>insize product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/in6.webp" alt="" />
+            <div class="flex justify-between items-center mb-8">
+              <div>
+                <h3>measureing product</h3>
+                <span>insize product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/in1.jpg" alt="" />
+            <div class="flex flex-wrap gap-4 justify-between items-center mb-8">
+              <div>
+                <h3>measureing product</h3>
+                <span>insize product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="new-imgs/in3.jpg" style="max-height: 330px" alt="" />
+            <div class="flex flex-wrap gap-4 justify-between items-center mb-8">
+              <div>
+                <h3>measureing product</h3>
+                <span>insize product</span>
+              </div>
+              <div>
+                <a
+                  class="px-4 py-2 z-10 capitalize bg-[#4038ff] text-white rounded-xl"
+                  href="tel:07515862918"
+                  >call us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- slider section end  -->
+
+    <!-- explore sections start  -->
+
+    <div class="lg:grid lg:grid-cols-4 lg:mx-24 mx-16 gap-4 grid grid-cols-1">
+      <div class="lg:col-span-2 lg:row-span-2">
+        <h1 class="font-bold lg:text-4xl lg:mb-8" id="about">About Us</h1>
+        <p class="">
+          Importer &distributor Al-Namaa General Trading Company is one of the
+          prominent suppliers of the following : Welding electrodes and
+          machines, mechanical and hand tools , measuring and testing equipment,
+          garage equipment.....etc In Iraqi local market since the registration
+          of the founder of Al-Namaa in Baghdad chamber of commerce in 1978
+          which was developed to establish Al-Namaa in 1996 gaining good
+          reputation as suppliers of professional material meeting our customers
+          expectations, our broad range of customers and end users continues to
+          expand and includes oil companies, governmental ministries and
+          companies, construction companies governmental and private sectors.
+          <br />
+          <br />
+          Al-Namaa is a partner with leading manufacturers and specialize in
+          purchase, supply and after sale services of mentioned products, our
+          major strength lies whithin our solutions based and flexible approach
+          to save money, improve operational performance through innovation and
+          enhanced safety. Our years of experience insure that our clients
+          challenges can be solved quickly and efficiently. Our vision is to
+          provide best General services and inspections through supplying the
+          highest quality products with great professionalism. Al-Namaa is ready
+          to serve you with domestic and international requirements ,allowing us
+          the opportunity to demonstrate what we can accomplish for you. We are
+          authorized distributors of
+          <br /><br />
+          Hyundai welding <br />
+          Hyundai tools <br />
+          Insize measuring and testing equipment <br />
+          Mastic <br />
+          Flex seal <br />
+          Achili marble cutting machines <br />
+          Lavour pressure washers <br />
+          Mega garage equipment <br />
+        </p>
+        <a
+          class="border px-4 py-1 font-semibold border-black rounded my-4 inline-block"
+          href="tel:07515862918"
+        >
+          call us
+        </a>
+      </div>
+
+      <div
+        class="py-12 text-center bg-gray-200 flex flex-col justify-center items-center"
+      >
+        <h2 class="font-bold text-3xl">powerful tools</h2>
+        <p>you will find the best powerful & saftiy tools</p>
+      </div>
+
+      <div class="">
+        <img
+          src="new-imgs/pexels-jeshootscom-834892 - Copy.jpg"
+          class="w-screen"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <img
+          src="new-imgs/pexels-energepiccom-175039 - Copy.jpg"
+          class="w-screen"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="text-center bg-gray-200 flex flex-col justify-center items-center"
+      >
+        <h2 class="font-bold text-3xl">popular companies</h2>
+        <p>we are delling with the most powerful companies only for you</p>
+      </div>
+    </div>
+
+    <!-- explore sections end -->
+
+    <!-- social section start  -->
+
+    <div class="mx-12">
+      <div class="my-8">
+        <h1 class="font-bold text-3xl" id="partners">OUR PARTNERS</h1>
+        <p class="text-gray-400">
+          HERE YOU WILL FIND THE MOST POPULAR COMPAINES THAT WE ARE DEALING WITH
+          THEM
+        </p>
+      </div>
+      <div class="flex gap-4 flex-wrap lg:flex-nowrap justify-center">
+        <img src="new-imgs/Artboard 12@10x.png" width="200PX" alt="" />
+        <img src="new-imgs/Artboard 13@10x.png" width="200PX" alt="" />
+        <img src="new-imgs/Artboard 14@10x.png" width="200PX" alt="" />
+        <img src="new-imgs/Artboard 15@10x.png" width="200PX" alt="" />
+        <img src="new-imgs/Artboard 16@10x.png" width="200PX" alt="" />
+        <img src="new-imgs/Artboard 17@10x.png" width="200PX" alt="" />
+      </div>
+    </div>
+    <!-- social section end -->
+
+    <!-- mail section start  -->
+
+    <div
+      class="flex lg:flex-nowrap flex-wrap lg:mx-24 mx-2 my-16 gap-8 align-items-center"
+    >
+      <div class="">
+        <h1 class="lg:text-3xl text-xl font-bold leading-snug" id="contact">
+          CONTACT WITH US NOW
+        </h1>
+        <p class="text-gray-400 my-4">
+          IF YOU LIKE OUR PORDUCT YOU CAN ALWAYS CONTACT WITH US ON THESE
+          ACCOUNTS
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <div>
+            <a
+              class="rounded mt-2 py-2 px-3 bg-[#4038ff] text-white"
+              href="mailto:namaairaq@gmail.com"
+            >
+              Send G-Mail
+              <i class="fa-solid fa-envelope text-white"></i>
+            </a>
+          </div>
+          <div>
+            <a
+              class="rounded mt-2 py-2 px-3 bg-[#4038ff] text-white"
+              href="https://www.facebook.com/alnamaagroup/?mibextid=ZbWKwL"
+              target="_blank"
+            >
+              FACEBOOK
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+          <div>
+            <a
+              class="rounded mt-2 py-2 px-3 bg-[#4038ff] text-white"
+              href="https://www.facebook.com/alnamaagroup/?mibextid=ZbWKwL"
+              target="_blank"
+            >
+              CALL US NOW
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d106659.2255131118!2d44.323119477259056!3d33.342316355049526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d33.34213!2d44.39309!5e0!3m2!1sen!2siq!4v1676981870643!5m2!1sen!2siq"
+          height="300"
+          style="border: 0"
+          class="lg:w-[400px]"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- mail section end  -->
+
+    <!-- last section start  -->
+
+    <footer
+      class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800"
+    >
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        >©2023-2024 COPYRIGHT. All Rights Reserved.
+      </span>
+      <ul
+        class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
+      >
+        <li>
+          <a href="index.html" class="mr-4 hover:underline md:mr-6">HOME</a>
+        </li>
+        <li>
+          <a
+            class="mr-4 hover:underline md:mr-6"
+            href="https://www.facebook.com/alnamaagroup/?mibextid=ZbWKwL"
+            target="_blank"
+            >FACEBOOK</a
+          >
+        </li>
+        <li>
+          <a
+            class="mr-4 hover:underline md:mr-6"
+            href="mailto:namaairaq@gmail.com"
+            target="_blank"
+            >G-MAIL</a
+          >
+        </li>
+        <li>
+          <a class="hover:underline" href="tel:07515862918">PHONE</a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- last section end  -->
+
+    <!-- swiper js script  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+
+    <!-- navbar flowbit script -->
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  </body>
+</html>
